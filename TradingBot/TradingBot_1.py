@@ -1,14 +1,15 @@
 import cbpro
 import time
-import TradingBotCoinPaper
 
-secret = TradingBotCoinPaper.api_secret
-key = TradingBotCoinPaper.api_key
-phrase = TradingBotCoinPaper.phrase
+secret = 'Put api secret here'
+key = 'Put api key here'
+phrase = 'Put phrase here'
 
 #####Public/Private Client Set-up#####
 
 public_client = cbpro.PublicClient()
+
+# Remove api_url for real trading
 
 auth_client = cbpro.AuthenticatedClient(
     key, secret, phrase, api_url="https://api-public.sandbox.pro.coinbase.com")
