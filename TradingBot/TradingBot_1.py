@@ -26,7 +26,7 @@ sell_with = 'BTC'
 
 buy_with = 'USD'
 
-profit_margin = .2
+profit_margin = .02
 
 #####Main Program#####
 
