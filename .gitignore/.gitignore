@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.TradingBotCoinLive
-.TradingBotCoinPaper
+.TradingBotCoinLive.py
+.TradingBotCoinPaper.py
